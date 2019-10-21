@@ -1,0 +1,131 @@
+/* selektorius all (*) - nurodyti stiliai taikomi visiems elementams:
+naudoti saikingai, nes prailgina tinklapio krovimo laiką. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* baziniai dokumento siliai: dekoratyvios detalės,- naudojamas flex išdėstymo modelis */
+html {
+
+}
+
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  color: #5D636C;
+}
+
+.left-block {
+  width: 10vw;
+  background: #6caee0;
+  height: 100vh;
+}
+
+.right-block {
+  width: 40vw;
+  background: #6caee0;
+  height: 100vh;
+}
+
+/* šiuos stilius galite naudoti formos elementų stilizavimui */
+
+form {
+  display: flex;
+  width: 50vw;
+  padding: 5vh 5vw;
+}
+
+fieldset {
+  border: none;
+  width: 100%;
+}
+
+legend {
+border-bottom: 2px solid #6caee0;
+width: 100%;
+text-align: right;
+font-size: 150% ;
+}
+
+
+input {
+  /* display: inline;
+  width: 350px;
+  height: 50px;;
+  padding: 10px;
+  border: 1px solid #DCDCDC;
+  box-shadow: 2px 5px 9px #EDEDED;
+  margin: 15px; */
+}
+
+textarea {
+  display: inline;
+  height: 75px;
+  padding: 10px;
+  border: 1px solid #DCDCDC;
+  box-shadow: 2px 5px 9px #EDEDED;
+  margin: 15px 0;
+  width: 50%;
+}
+
+input[type="text"] {
+  width: 50%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #DCDCDC;
+  box-shadow: 2px 5px 9px #EDEDED;
+  margin: 15px 0;
+}
+
+input[type="email"] {
+  width: 50%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #DCDCDC;
+  box-shadow: 2px 5px 9px #EDEDED;
+  margin: 15px 0;
+}
+
+
+input[type="checkbox"] {
+margin: 0 5px;
+position: relative;
+top: -7px;
+}
+
+.icons {
+  width: 35px;
+}
+::placeholder {
+  color: #D7D7D7;
+
+}
+
+input[type="submit"] {
+margin: 15px 0;
+
+}
+.button {
+  background-color: #4788C7;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 0;
+  cursor: pointer;
+  margin-left: 80%;
+
+}
+ span {
+
+   width: 28%;
+   margin-right: 20%;
+   display: inline-block;
+   text-align: right;
+ }
